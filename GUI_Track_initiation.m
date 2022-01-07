@@ -195,7 +195,7 @@ function find_Callback(hObject, eventdata, handles)
 if (handles.id_load == 0)
     msgbox('No input image. Please select an image!');
 else
-    if handles.number <= 0 || handles.number == []
+    if handles.number <= 0
          msgbox('Please choose a number of targets!');
     else
         tic
